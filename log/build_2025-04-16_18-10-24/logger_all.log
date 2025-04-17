@@ -1,0 +1,394 @@
+[0.231s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.231s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f14a8423050>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f14a85c3800>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f14a85c3800>>, mixin_verb=('build',))
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.313s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros-lab-2'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extension 'ros'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extensions ['cmake', 'python']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extension 'cmake'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extension 'python'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extensions ['python_setup_py']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extension 'python_setup_py'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extension 'ros'
+[0.382s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_gz_app' with type 'ros.ament_cmake' and name 'ros_gz_app'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extension 'ros'
+[0.384s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_gz_bringup' with type 'ros.ament_cmake' and name 'ros_gz_bringup'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extension 'ros'
+[0.385s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_gz_description' with type 'ros.ament_cmake' and name 'ros_gz_description'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extension 'ros'
+[0.387s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_gz_gazebo' with type 'ros.ament_cmake' and name 'ros_gz_gazebo'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extension 'ros'
+[0.390s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wall_follow' with type 'ros.ament_python' and name 'wall_follow'
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.436s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /root/install
+[0.437s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /root/ros-lab-2/install
+[0.441s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 317 installed packages in /opt/ros/jazzy
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'cmake_target' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'cmake_clean_cache' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'cmake_clean_first' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'cmake_force_configure' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'ament_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'catkin_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.531s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_app' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros-lab-2/build/ros_gz_app', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros-lab-2/install/ros_gz_app', 'merge_install': False, 'path': '/root/ros-lab-2/ros_gz_app', 'symlink_install': False, 'test_result_base': None}
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'cmake_target' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.532s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros-lab-2/build/ros_gz_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros-lab-2/install/ros_gz_description', 'merge_install': False, 'path': '/root/ros-lab-2/ros_gz_description', 'symlink_install': False, 'test_result_base': None}
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'cmake_target' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'cmake_clean_cache' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'cmake_clean_first' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'cmake_force_configure' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'ament_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'catkin_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.533s] DEBUG:colcon.colcon_core.verb:Building package 'wall_follow' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros-lab-2/build/wall_follow', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros-lab-2/install/wall_follow', 'merge_install': False, 'path': '/root/ros-lab-2/src/wall_follow', 'symlink_install': False, 'test_result_base': None}
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.534s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros-lab-2/build/ros_gz_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros-lab-2/install/ros_gz_gazebo', 'merge_install': False, 'path': '/root/ros-lab-2/ros_gz_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'cmake_target' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.536s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros-lab-2/build/ros_gz_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros-lab-2/install/ros_gz_bringup', 'merge_install': False, 'path': '/root/ros-lab-2/ros_gz_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.536s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.538s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.539s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros-lab-2/ros_gz_description' with build type 'ament_cmake'
+[0.539s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros-lab-2/ros_gz_description'
+[0.545s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.545s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.553s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros-lab-2/ros_gz_app' with build type 'ament_cmake'
+[0.553s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros-lab-2/ros_gz_app'
+[0.553s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.553s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.560s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros-lab-2/src/wall_follow' with build type 'ament_python'
+[0.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_follow', 'ament_prefix_path')
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/wall_follow/share/wall_follow/hook/ament_prefix_path.ps1'
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros-lab-2/install/wall_follow/share/wall_follow/hook/ament_prefix_path.dsv'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/wall_follow/share/wall_follow/hook/ament_prefix_path.sh'
+[0.565s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.565s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros-lab-2/build/ros_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/install/wall_follow:/root/install/py_pubsub:/root/ros-lab-2/install/wall_follow:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /root/ros-lab-2/build/ros_gz_description -- -j16 -l16
+[0.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros-lab-2/build/ros_gz_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/install/wall_follow:/root/install/py_pubsub:/root/ros-lab-2/install/wall_follow:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /root/ros-lab-2/build/ros_gz_app -- -j16 -l16
+[1.039s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros-lab-2/src/wall_follow'
+[1.040s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.040s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros-lab-2/build/ros_gz_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/install/wall_follow:/root/install/py_pubsub:/root/ros-lab-2/install/wall_follow:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /root/ros-lab-2/build/ros_gz_app -- -j16 -l16
+[1.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros-lab-2/build/ros_gz_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/install/wall_follow:/root/install/py_pubsub:/root/ros-lab-2/install/wall_follow:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /root/ros-lab-2/build/ros_gz_app
+[1.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros-lab-2/build/ros_gz_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/install/wall_follow:/root/install/py_pubsub:/root/ros-lab-2/install/wall_follow:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /root/ros-lab-2/build/ros_gz_description -- -j16 -l16
+[1.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros-lab-2/build/ros_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/install/wall_follow:/root/install/py_pubsub:/root/ros-lab-2/install/wall_follow:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /root/ros-lab-2/build/ros_gz_description
+[1.105s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_app)
+[1.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros-lab-2/build/ros_gz_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/install/wall_follow:/root/install/py_pubsub:/root/ros-lab-2/install/wall_follow:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /root/ros-lab-2/build/ros_gz_app
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_app' for CMake module files
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_app' for CMake config files
+[1.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_app', 'cmake_prefix_path')
+[1.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/ros_gz_app/share/ros_gz_app/hook/cmake_prefix_path.ps1'
+[1.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros-lab-2/install/ros_gz_app/share/ros_gz_app/hook/cmake_prefix_path.dsv'
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/ros_gz_app/share/ros_gz_app/hook/cmake_prefix_path.sh'
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_app/bin'
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_app/lib/pkgconfig/ros_gz_app.pc'
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_app/lib/python3.12/site-packages'
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_app/bin'
+[1.131s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.ps1'
+[1.133s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.dsv'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.sh'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.bash'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.zsh'
+[1.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros-lab-2/install/ros_gz_app/share/colcon-core/packages/ros_gz_app)
+[1.143s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_app)
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_app' for CMake module files
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_app' for CMake config files
+[1.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_app', 'cmake_prefix_path')
+[1.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/ros_gz_app/share/ros_gz_app/hook/cmake_prefix_path.ps1'
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros-lab-2/install/ros_gz_app/share/ros_gz_app/hook/cmake_prefix_path.dsv'
+[1.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/ros_gz_app/share/ros_gz_app/hook/cmake_prefix_path.sh'
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_app/bin'
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_app/lib/pkgconfig/ros_gz_app.pc'
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_app/lib/python3.12/site-packages'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_app/bin'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.ps1'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.dsv'
+[1.156s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.sh'
+[1.157s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.bash'
+[1.158s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.zsh'
+[1.164s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros-lab-2/install/ros_gz_app/share/colcon-core/packages/ros_gz_app)
+[1.166s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_description)
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_description' for CMake module files
+[1.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros-lab-2/build/ros_gz_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/install/wall_follow:/root/install/py_pubsub:/root/ros-lab-2/install/wall_follow:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /root/ros-lab-2/build/ros_gz_description
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_description' for CMake config files
+[1.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_description', 'cmake_prefix_path')
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/hook/cmake_prefix_path.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/hook/cmake_prefix_path.dsv'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/hook/cmake_prefix_path.sh'
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_description/bin'
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_description/lib/pkgconfig/ros_gz_description.pc'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_description/lib/python3.12/site-packages'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_description/bin'
+[1.175s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.ps1'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.dsv'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.sh'
+[1.180s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.bash'
+[1.182s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.zsh'
+[1.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros-lab-2/install/ros_gz_description/share/colcon-core/packages/ros_gz_description)
+[1.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_description)
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_description' for CMake module files
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_description' for CMake config files
+[1.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_description', 'cmake_prefix_path')
+[1.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/hook/cmake_prefix_path.ps1'
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/hook/cmake_prefix_path.dsv'
+[1.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/hook/cmake_prefix_path.sh'
+[1.190s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_description/bin'
+[1.190s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_description/lib/pkgconfig/ros_gz_description.pc'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_description/lib/python3.12/site-packages'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_description/bin'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.ps1'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.dsv'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.sh'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.bash'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.zsh'
+[1.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros-lab-2/install/ros_gz_description/share/colcon-core/packages/ros_gz_description)
+[1.203s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros-lab-2/ros_gz_gazebo' with build type 'ament_cmake'
+[1.203s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros-lab-2/ros_gz_gazebo'
+[1.204s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.204s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros-lab-2/build/ros_gz_gazebo': CMAKE_PREFIX_PATH=/root/ros-lab-2/install/ros_gz_description:/root/install/ros_gz_bringup:/root/install/ros_gz_gazebo:/root/install/ros_gz_description:/root/install/ros_gz_app:/root/ros-lab-2/install/ros_gz_bringup:/root/ros-lab-2/install/ros_gz_gazebo:/root/ros-lab-2/install/ros_gz_app:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/install/wall_follow:/root/install/py_pubsub:/root/ros-lab-2/install/wall_follow:/opt/ros/jazzy GZ_SIM_RESOURCE_PATH=/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models:${GZ_SIM_RESOURCE_PATH} PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /root/ros-lab-2/build/ros_gz_gazebo -- -j16 -l16
+[1.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros-lab-2/build/ros_gz_gazebo' returned '0': CMAKE_PREFIX_PATH=/root/ros-lab-2/install/ros_gz_description:/root/install/ros_gz_bringup:/root/install/ros_gz_gazebo:/root/install/ros_gz_description:/root/install/ros_gz_app:/root/ros-lab-2/install/ros_gz_bringup:/root/ros-lab-2/install/ros_gz_gazebo:/root/ros-lab-2/install/ros_gz_app:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/install/wall_follow:/root/install/py_pubsub:/root/ros-lab-2/install/wall_follow:/opt/ros/jazzy GZ_SIM_RESOURCE_PATH=/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models:${GZ_SIM_RESOURCE_PATH} PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /root/ros-lab-2/build/ros_gz_gazebo -- -j16 -l16
+[1.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros-lab-2/build/ros_gz_gazebo': CMAKE_PREFIX_PATH=/root/ros-lab-2/install/ros_gz_description:/root/install/ros_gz_bringup:/root/install/ros_gz_gazebo:/root/install/ros_gz_description:/root/install/ros_gz_app:/root/ros-lab-2/install/ros_gz_bringup:/root/ros-lab-2/install/ros_gz_gazebo:/root/ros-lab-2/install/ros_gz_app:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/install/wall_follow:/root/install/py_pubsub:/root/ros-lab-2/install/wall_follow:/opt/ros/jazzy GZ_SIM_RESOURCE_PATH=/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models:${GZ_SIM_RESOURCE_PATH} PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /root/ros-lab-2/build/ros_gz_gazebo
+[1.385s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_gazebo)
+[1.386s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_gazebo' for CMake module files
+[1.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros-lab-2/build/ros_gz_gazebo' returned '0': CMAKE_PREFIX_PATH=/root/ros-lab-2/install/ros_gz_description:/root/install/ros_gz_bringup:/root/install/ros_gz_gazebo:/root/install/ros_gz_description:/root/install/ros_gz_app:/root/ros-lab-2/install/ros_gz_bringup:/root/ros-lab-2/install/ros_gz_gazebo:/root/ros-lab-2/install/ros_gz_app:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/install/wall_follow:/root/install/py_pubsub:/root/ros-lab-2/install/wall_follow:/opt/ros/jazzy GZ_SIM_RESOURCE_PATH=/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models:${GZ_SIM_RESOURCE_PATH} PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /root/ros-lab-2/build/ros_gz_gazebo
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_gazebo' for CMake config files
+[1.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_gazebo', 'cmake_prefix_path')
+[1.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/hook/cmake_prefix_path.ps1'
+[1.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/hook/cmake_prefix_path.dsv'
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/hook/cmake_prefix_path.sh'
+[1.391s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_gazebo/lib'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_gazebo/bin'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_gazebo/lib/pkgconfig/ros_gz_gazebo.pc'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_gazebo/lib/python3.12/site-packages'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_gazebo/bin'
+[1.393s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.ps1'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.dsv'
+[1.396s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.sh'
+[1.399s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.bash'
+[1.401s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.zsh'
+[1.402s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros-lab-2/install/ros_gz_gazebo/share/colcon-core/packages/ros_gz_gazebo)
+[1.404s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_gazebo)
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_gazebo' for CMake module files
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_gazebo' for CMake config files
+[1.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_gazebo', 'cmake_prefix_path')
+[1.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/hook/cmake_prefix_path.ps1'
+[1.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/hook/cmake_prefix_path.dsv'
+[1.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/hook/cmake_prefix_path.sh'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_gazebo/lib'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_gazebo/bin'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_gazebo/lib/pkgconfig/ros_gz_gazebo.pc'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_gazebo/lib/python3.12/site-packages'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_gazebo/bin'
+[1.412s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.ps1'
+[1.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.dsv'
+[1.413s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.sh'
+[1.415s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.bash'
+[1.416s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.zsh'
+[1.417s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros-lab-2/install/ros_gz_gazebo/share/colcon-core/packages/ros_gz_gazebo)
+[1.419s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros-lab-2/ros_gz_bringup' with build type 'ament_cmake'
+[1.420s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros-lab-2/ros_gz_bringup'
+[1.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.421s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros-lab-2/build/ros_gz_bringup': CMAKE_PREFIX_PATH=/root/ros-lab-2/install/ros_gz_gazebo:/root/ros-lab-2/install/ros_gz_description:/root/install/ros_gz_bringup:/root/install/ros_gz_gazebo:/root/install/ros_gz_description:/root/install/ros_gz_app:/root/ros-lab-2/install/ros_gz_bringup:/root/ros-lab-2/install/ros_gz_app:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/install/wall_follow:/root/install/py_pubsub:/root/ros-lab-2/install/wall_follow:/opt/ros/jazzy GZ_SIM_PLUGIN_PATH=/root/ros-lab-2/install/ros_gz_gazebo/lib/ros_gz_gazebo GZ_SIM_RESOURCE_PATH=/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models:${GZ_SIM_RESOURCE_PATH} PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /root/ros-lab-2/build/ros_gz_bringup -- -j16 -l16
+[1.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros-lab-2/build/ros_gz_bringup' returned '0': CMAKE_PREFIX_PATH=/root/ros-lab-2/install/ros_gz_gazebo:/root/ros-lab-2/install/ros_gz_description:/root/install/ros_gz_bringup:/root/install/ros_gz_gazebo:/root/install/ros_gz_description:/root/install/ros_gz_app:/root/ros-lab-2/install/ros_gz_bringup:/root/ros-lab-2/install/ros_gz_app:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/install/wall_follow:/root/install/py_pubsub:/root/ros-lab-2/install/wall_follow:/opt/ros/jazzy GZ_SIM_PLUGIN_PATH=/root/ros-lab-2/install/ros_gz_gazebo/lib/ros_gz_gazebo GZ_SIM_RESOURCE_PATH=/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models:${GZ_SIM_RESOURCE_PATH} PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /root/ros-lab-2/build/ros_gz_bringup -- -j16 -l16
+[1.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros-lab-2/build/ros_gz_bringup': CMAKE_PREFIX_PATH=/root/ros-lab-2/install/ros_gz_gazebo:/root/ros-lab-2/install/ros_gz_description:/root/install/ros_gz_bringup:/root/install/ros_gz_gazebo:/root/install/ros_gz_description:/root/install/ros_gz_app:/root/ros-lab-2/install/ros_gz_bringup:/root/ros-lab-2/install/ros_gz_app:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/install/wall_follow:/root/install/py_pubsub:/root/ros-lab-2/install/wall_follow:/opt/ros/jazzy GZ_SIM_PLUGIN_PATH=/root/ros-lab-2/install/ros_gz_gazebo/lib/ros_gz_gazebo GZ_SIM_RESOURCE_PATH=/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models:${GZ_SIM_RESOURCE_PATH} PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /root/ros-lab-2/build/ros_gz_bringup
+[1.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_bringup)
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_bringup' for CMake module files
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_bringup' for CMake config files
+[1.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_bringup', 'cmake_prefix_path')
+[1.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/hook/cmake_prefix_path.ps1'
+[1.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/hook/cmake_prefix_path.dsv'
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/hook/cmake_prefix_path.sh'
+[1.568s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_bringup/bin'
+[1.568s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_bringup/lib/pkgconfig/ros_gz_bringup.pc'
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_bringup/lib/python3.12/site-packages'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_bringup/bin'
+[1.570s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.ps1'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.dsv'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.sh'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.bash'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.zsh'
+[1.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros-lab-2/install/ros_gz_bringup/share/colcon-core/packages/ros_gz_bringup)
+[1.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros-lab-2/build/ros_gz_bringup' returned '0': CMAKE_PREFIX_PATH=/root/ros-lab-2/install/ros_gz_gazebo:/root/ros-lab-2/install/ros_gz_description:/root/install/ros_gz_bringup:/root/install/ros_gz_gazebo:/root/install/ros_gz_description:/root/install/ros_gz_app:/root/ros-lab-2/install/ros_gz_bringup:/root/ros-lab-2/install/ros_gz_app:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/install/wall_follow:/root/install/py_pubsub:/root/ros-lab-2/install/wall_follow:/opt/ros/jazzy GZ_SIM_PLUGIN_PATH=/root/ros-lab-2/install/ros_gz_gazebo/lib/ros_gz_gazebo GZ_SIM_RESOURCE_PATH=/root/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models:${GZ_SIM_RESOURCE_PATH} PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /root/ros-lab-2/build/ros_gz_bringup
+[1.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_bringup)
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_bringup' for CMake module files
+[1.577s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_bringup' for CMake config files
+[1.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_bringup', 'cmake_prefix_path')
+[1.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/hook/cmake_prefix_path.ps1'
+[1.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/hook/cmake_prefix_path.dsv'
+[1.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/hook/cmake_prefix_path.sh'
+[1.581s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_bringup/bin'
+[1.581s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_bringup/lib/pkgconfig/ros_gz_bringup.pc'
+[1.582s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_bringup/lib/python3.12/site-packages'
+[1.582s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/ros_gz_bringup/bin'
+[1.582s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.ps1'
+[1.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.dsv'
+[1.585s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.sh'
+[1.586s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.bash'
+[1.587s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.zsh'
+[1.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros-lab-2/install/ros_gz_bringup/share/colcon-core/packages/ros_gz_bringup)
+[2.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros-lab-2/src/wall_follow': PS1=<ROS2-Jazzy>[\u@\h \W]$ PYTHONPATH=/root/ros-lab-2/build/wall_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros-lab-2/install/wall_follow/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wall_follow build --build-base /root/ros-lab-2/build/wall_follow/build install --record /root/ros-lab-2/build/wall_follow/install.log --single-version-externally-managed install_data
+[3.777s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/wall_follow' for CMake module files
+[3.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros-lab-2/src/wall_follow' returned '0': PS1=<ROS2-Jazzy>[\u@\h \W]$ PYTHONPATH=/root/ros-lab-2/build/wall_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros-lab-2/install/wall_follow/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wall_follow build --build-base /root/ros-lab-2/build/wall_follow/build install --record /root/ros-lab-2/build/wall_follow/install.log --single-version-externally-managed install_data
+[3.779s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/wall_follow' for CMake config files
+[3.780s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/wall_follow/lib'
+[3.781s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/wall_follow/bin'
+[3.781s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/wall_follow/lib/pkgconfig/wall_follow.pc'
+[3.781s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/wall_follow/lib/python3.12/site-packages'
+[3.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_follow', 'pythonpath')
+[3.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/wall_follow/share/wall_follow/hook/pythonpath.ps1'
+[3.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros-lab-2/install/wall_follow/share/wall_follow/hook/pythonpath.dsv'
+[3.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros-lab-2/install/wall_follow/share/wall_follow/hook/pythonpath.sh'
+[3.785s] Level 1:colcon.colcon_core.environment:checking '/root/ros-lab-2/install/wall_follow/bin'
+[3.785s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wall_follow)
+[3.785s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/wall_follow/share/wall_follow/package.ps1'
+[3.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros-lab-2/install/wall_follow/share/wall_follow/package.dsv'
+[3.787s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/wall_follow/share/wall_follow/package.sh'
+[3.787s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/wall_follow/share/wall_follow/package.bash'
+[3.788s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros-lab-2/install/wall_follow/share/wall_follow/package.zsh'
+[3.788s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros-lab-2/install/wall_follow/share/colcon-core/packages/wall_follow)
+[3.789s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.790s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.790s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.790s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.807s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.807s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.807s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.807s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.811s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[3.812s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.813s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros-lab-2/install/local_setup.ps1'
+[3.817s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros-lab-2/install/_local_setup_util_ps1.py'
+[3.819s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros-lab-2/install/setup.ps1'
+[3.823s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros-lab-2/install/local_setup.sh'
+[3.825s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros-lab-2/install/_local_setup_util_sh.py'
+[3.826s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros-lab-2/install/setup.sh'
+[3.830s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros-lab-2/install/local_setup.bash'
+[3.833s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros-lab-2/install/setup.bash'
+[3.835s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros-lab-2/install/local_setup.zsh'
+[3.836s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros-lab-2/install/setup.zsh'

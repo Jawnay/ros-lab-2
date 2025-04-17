@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/wall_follow/wall_follow.egg-info/PKG-INFO
+writing dependency_links to ../../build/wall_follow/wall_follow.egg-info/dependency_links.txt
+writing entry points to ../../build/wall_follow/wall_follow.egg-info/entry_points.txt
+writing requirements to ../../build/wall_follow/wall_follow.egg-info/requires.txt
+writing top-level names to ../../build/wall_follow/wall_follow.egg-info/top_level.txt
+reading manifest file '../../build/wall_follow/wall_follow.egg-info/SOURCES.txt'
+writing manifest file '../../build/wall_follow/wall_follow.egg-info/SOURCES.txt'
+running build
+running build_py
+copying wall_follow/wall_follow_node.py -> /root/ros-lab-2/build/wall_follow/build/lib/wall_follow
+running install
+running install_lib
+copying /root/ros-lab-2/build/wall_follow/build/lib/wall_follow/wall_follow_node.py -> /root/ros-lab-2/install/wall_follow/lib/python3.12/site-packages/wall_follow
+byte-compiling /root/ros-lab-2/install/wall_follow/lib/python3.12/site-packages/wall_follow/wall_follow_node.py to wall_follow_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/root/ros-lab-2/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/wall_follow/wall_follow.egg-info to /root/ros-lab-2/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info
+running install_scripts
+Installing wall_follow script to /root/ros-lab-2/install/wall_follow/lib/wall_follow
+writing list of installed files to '/root/ros-lab-2/build/wall_follow/install.log'

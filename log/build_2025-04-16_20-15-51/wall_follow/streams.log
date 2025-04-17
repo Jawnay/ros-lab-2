@@ -1,0 +1,24 @@
+[2.272s] Invoking command in '/root/ros-lab-2/src/wall_follow': PS1=<ROS2-Jazzy>[\u@\h \W]$ PYTHONPATH=/root/ros-lab-2/build/wall_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros-lab-2/install/wall_follow/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wall_follow build --build-base /root/ros-lab-2/build/wall_follow/build install --record /root/ros-lab-2/build/wall_follow/install.log --single-version-externally-managed install_data
+[3.004s] running egg_info
+[3.058s] writing ../../build/wall_follow/wall_follow.egg-info/PKG-INFO
+[3.058s] writing dependency_links to ../../build/wall_follow/wall_follow.egg-info/dependency_links.txt
+[3.059s] writing entry points to ../../build/wall_follow/wall_follow.egg-info/entry_points.txt
+[3.060s] writing requirements to ../../build/wall_follow/wall_follow.egg-info/requires.txt
+[3.060s] writing top-level names to ../../build/wall_follow/wall_follow.egg-info/top_level.txt
+[3.155s] reading manifest file '../../build/wall_follow/wall_follow.egg-info/SOURCES.txt'
+[3.157s] writing manifest file '../../build/wall_follow/wall_follow.egg-info/SOURCES.txt'
+[3.158s] running build
+[3.158s] running build_py
+[3.158s] copying wall_follow/wall_follow_node.py -> /root/ros-lab-2/build/wall_follow/build/lib/wall_follow
+[3.158s] running install
+[3.177s] running install_lib
+[3.224s] copying /root/ros-lab-2/build/wall_follow/build/lib/wall_follow/wall_follow_node.py -> /root/ros-lab-2/install/wall_follow/lib/python3.12/site-packages/wall_follow
+[3.225s] byte-compiling /root/ros-lab-2/install/wall_follow/lib/python3.12/site-packages/wall_follow/wall_follow_node.py to wall_follow_node.cpython-312.pyc
+[3.229s] running install_data
+[3.229s] running install_egg_info
+[3.283s] removing '/root/ros-lab-2/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info' (and everything under it)
+[3.283s] Copying ../../build/wall_follow/wall_follow.egg-info to /root/ros-lab-2/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info
+[3.285s] running install_scripts
+[3.670s] Installing wall_follow script to /root/ros-lab-2/install/wall_follow/lib/wall_follow
+[3.671s] writing list of installed files to '/root/ros-lab-2/build/wall_follow/install.log'
+[3.745s] Invoked command in '/root/ros-lab-2/src/wall_follow' returned '0': PS1=<ROS2-Jazzy>[\u@\h \W]$ PYTHONPATH=/root/ros-lab-2/build/wall_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros-lab-2/install/wall_follow/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wall_follow build --build-base /root/ros-lab-2/build/wall_follow/build install --record /root/ros-lab-2/build/wall_follow/install.log --single-version-externally-managed install_data
